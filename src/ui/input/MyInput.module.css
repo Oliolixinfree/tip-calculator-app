@@ -1,0 +1,22 @@
+.billBtn {
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+    border-radius: 7px;
+    background: hsl(189, 41%, 97%);
+    border: 3px solid hsl(172, 67%, 45%);
+    outline:none;
+    color: hsl(183, 100%, 15%);
+    padding: 0 10px;
+}
+
+.billBtn input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.billBtn input[type=number] {
+    -moz-appearance:textfield;
+}

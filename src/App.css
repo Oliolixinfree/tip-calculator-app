@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: hsl(185, 41%, 84%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background-color: hsl(185, 41%, 84%);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* position: absolute; 
+    top: 50%;
+    left: 50%;  */
+}
+.container__logo {
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.container__main {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 20px 20px;
+  /* width: 100%; */
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ppercent_btn {
+  background-color: hsl(186, 14%, 43%);
+}
+
+.percent-list {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  justify-content: space-between;
 }

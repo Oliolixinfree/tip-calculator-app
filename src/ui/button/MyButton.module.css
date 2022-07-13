@@ -1,0 +1,11 @@
+.percentBtn {
+    background-color: aqua;
+    padding: 7px 14px;
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    color: hsl(189, 41%, 97%);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
